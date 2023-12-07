@@ -83,35 +83,35 @@ Each of our planets presents a unique opportunity to leave your mark in the star
 
         </motion.p>
       </div>
-      <div className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px] overflow  gap-7 grid gap-x-8 gap-y-4 grid-cols-3">
-      
-      <div className="flex flex-col items-center">
+
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 md:gap-x-8 md:gap-y-4 overflow-auto">      
+      <div className="flex flex-col items-center p-4">
         <TestCanvas />
         <div className={styles.sectionHeadText}>
         Pyroterra
         </div>
-        <div className="sm:text-[18px] text-[14px] text-secondary  ">
+        <div className="text-[14px] sm:text-[16px] md:text-[18px] text-secondary">
         A fiery world where volcanoes illuminate the night sky with their majestic eruptions. Bidding on Pyroterra offers the chance to name one of the most luminous planets known to our virtual observatory.
 
         </div>
         
     </div>
 
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center p-4">
         <Purple_planet />
         <div className={styles.sectionHeadText}>
         Purpurea
         </div>
-        <div className="sm:text-[18px] text-[14px] text-secondary  ">
+        <div className="text-[14px] sm:text-[16px] md:text-[18px] text-secondary">
         A world bathed in purple, Purpurea features violet mountains and lavender plains under amethyst skies. Its mystical aura offers a unique naming opportunity.        </div>
     </div>
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center p-4">
         <Mercury />
         <div className={styles.sectionHeadText}>
         Solaris
         </div>
-        <div className="sm:text-[18px] text-[14px] text-secondary  ">
-        Solaris Minor is a rocky, cratered planet with extreme temperature shifts. Its resilient nature makes it ideal for a distinctive name.        </div>
+        <div className="text-[14px] sm:text-[16px] md:text-[18px] text-secondary">
+                  Solaris Minor is a rocky, cratered planet with extreme temperature shifts. Its resilient nature makes it ideal for a distinctive name.        </div>
     </div>
 
 

@@ -15,8 +15,8 @@ close
       title: "Planet",
     },
     {
-      id: "contact",
-      title: "FAQ",
+      id: "ticket",
+      title: "Ticket",
     },
   ];
   

@@ -1,5 +1,5 @@
 import {BrowserRouter, Routes, Route,useNavigate } from 'react-router-dom';
-
+import React, { useState, useEffect } from 'react';
 import {Intro, Navbar,StarsCanvas, About,Work, Calendar,Registration,BuyTicketsSection} from './components'
 
 
@@ -78,6 +78,12 @@ const Footer = () => {
       <div className="border-t border-gray-700 text-center py-4 mt-8">
         <div className="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">&copy; CosmoClaim. All rights reserved.</p>
+          <p className="text-gray-400 text-sm">&copy; 3D planet by https://sketchfab.com/cmzw.</p>
+          <p className="text-gray-400 text-sm">&copy; 3D pruple planet by https://sketchfab.com/grox777</p>
+          <p className="text-gray-400 text-sm">&copy; 3D lava planet by https://sketchfab.com/jcises</p>
+          <p className="text-gray-400 text-sm">&copy; 3D Mercury planet by https://sketchfab.com/SebastianSosnowski</p>
+
+
           <div className="flex mt-4 md:mt-0">
             <a href="#" className="text-gray-400 text-sm hover:text-gray-300 mx-2">Privacy Policy</a>
             <a href="#" className="text-gray-400 text-sm hover:text-gray-300 mx-2">Terms and Conditions</a>
@@ -89,9 +95,21 @@ const Footer = () => {
 };
 
 const HomePage = () => {
+  const [isDesktop, setIsDesktop] = useState(window.innerWidth > 768);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsDesktop(window.innerWidth > 768);
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+
   return (
     <div className="relative z-0 bg-primary ">
-    <StarsCanvas/>
+      {isDesktop && <StarsCanvas />}
             <Navbar/>
             <Intro/>
             

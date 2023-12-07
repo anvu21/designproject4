@@ -22,7 +22,7 @@ const About = () => {
       <motion.div 
             variants= {slideIn('left', "tween",0.2,1)}
             className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px] overflow "            >
-        <img src={icon} alt="logo" className="w-full h-full object-cover"/>
+        <img src={icon} alt="logo" className="w-full h-full object-cover overflow"/>
 
 
       </motion.div>
