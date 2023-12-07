@@ -120,4 +120,4 @@ Each of our planets presents a unique opportunity to leave your mark in the star
   )
 }
 
-export default SectionWrapper(Works,"")
+export default SectionWrapper(Works,"work")

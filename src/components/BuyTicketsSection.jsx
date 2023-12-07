@@ -28,7 +28,7 @@ const TicketCard = ({ title, price, features, tag, isSoldOut }) => {
         className={`w-full mb-2 py-2 text-white font-bold rounded-lg ${isSoldOut ? 'bg-gray-400 cursor-not-allowed' : 'bg-[#915EFF] hover:bg-[#8254e5]'}`}
         disabled={isSoldOut}
       >
-        {isSoldOut ? 'Sold Out' : 'Add to Cart'}
+        {isSoldOut ? 'Sold Out' : 'Purchase'}
       </button>
       <a href="#" className="text-[#915EFF] hover:underline">More Details →</a>
     </div>

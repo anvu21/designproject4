@@ -78,10 +78,8 @@ const Footer = () => {
       <div className="border-t border-gray-700 text-center py-4 mt-8">
         <div className="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">&copy; CosmoClaim. All rights reserved.</p>
-          <p className="text-gray-400 text-sm">&copy; 3D planet by https://sketchfab.com/cmzw.</p>
-          <p className="text-gray-400 text-sm">&copy; 3D pruple planet by https://sketchfab.com/grox777</p>
-          <p className="text-gray-400 text-sm">&copy; 3D lava planet by https://sketchfab.com/jcises</p>
-          <p className="text-gray-400 text-sm">&copy; 3D Mercury planet by https://sketchfab.com/SebastianSosnowski</p>
+          <p className="text-gray-400 text-sm">&copy; All 3D Planets sourced from SketchFab</p>
+          
 
 
           <div className="flex mt-4 md:mt-0">

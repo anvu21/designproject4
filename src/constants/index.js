@@ -15,8 +15,8 @@ close
       title: "Planet",
     },
     {
-      id: "ticket",
-      title: "Ticket",
+      id: "calendar",
+      title: "Calendar",
     },
   ];
   

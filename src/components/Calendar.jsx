@@ -140,4 +140,4 @@ const Calendar = () => {
   );
 };
 
-export default SectionWrapper(Calendar,"")
+export default SectionWrapper(Calendar,"calendar")
